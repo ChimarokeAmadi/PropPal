@@ -1,0 +1,22 @@
+#hero .swiper-pagination {
+	@apply pb-[50px];
+}
+#hero span.swiper-pagination-bullet {
+	@apply border border-white  opacity-100 size-[7px] bg-transparent;
+}
+
+#hero span.swiper-pagination-bullet-active {
+	@apply bg-white;
+}
+
+#second span.swiper-pagination-bullet {
+	@apply border border-primary-300  opacity-100 size-[10px] bg-transparent;
+}
+
+#second span.swiper-pagination-bullet-active {
+	@apply bg-primary-300;
+}
+
+#second .swiper-pagination {
+	@apply mb-[-5px];
+}

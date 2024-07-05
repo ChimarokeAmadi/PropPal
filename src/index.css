@@ -1,0 +1,12 @@
+@import url(../public/assets/swiper.css);
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+	font-family: "Lufga", sans-serif;
+}
+
+h1 {
+	@apply text-h1;
+}
