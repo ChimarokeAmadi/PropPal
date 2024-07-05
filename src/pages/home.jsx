@@ -139,7 +139,7 @@ const HomePage = () => {
 			<OurPartners />
 			<Future />
 			<Inspire />
-			{/* <Committed /> */}
+			<Committed />
 			{/* <Community /> */}
 			{/* <Invest /> */}
 			{/* <Faq /> */}
