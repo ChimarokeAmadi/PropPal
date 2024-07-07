@@ -140,10 +140,10 @@ const HomePage = () => {
 			<Future />
 			<Inspire />
 			<Committed />
-			{/* <Community /> */}
-			{/* <Invest /> */}
-			{/* <Faq /> */}
-			{/* <ReadyToInvest /> */}
+			<Community />
+			<Invest />
+			<Faq />
+			<ReadyToInvest />
 		</main>
 	);
 };

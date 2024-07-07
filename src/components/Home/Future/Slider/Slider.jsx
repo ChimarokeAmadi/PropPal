@@ -4,16 +4,16 @@ import { Pagination, Autoplay } from "swiper/modules";
 
 const Slider = () => {
 	return (
-		<div id='second' className='h-[281px] container'>
+		<div id='second' className='h-[281px] container w-[343px]'>
 			<Swiper
-				className='h-[281px]'
+				className='h-[281px] '
 				pagination={{ clickable: true }}
 				spaceBetween={0}
 				slidesPerView={1}
 				modules={[Pagination]}
 				onSwiper={(swiper) => console.log(swiper)}>
-				<SwiperSlide className='h-[281px]'>
-					<div className='border-[1px] border-primary-300 rounded-[20px] py-5 pl-5 pr-[5px] width-[343px]'>
+				<SwiperSlide>
+					<div className='border-[1px] border-primary-300 rounded-[20px] py-5 pl-5 pr-[5px] w-[343px]'>
 						<div className='flex items center '>
 							<div className='flex flex-col space-y-6'>
 								<img
@@ -35,8 +35,8 @@ const Slider = () => {
 						</div>
 					</div>
 				</SwiperSlide>
-				<SwiperSlide className='h-[281px]'>
-					<div className='border-[1px] border-primary-300 rounded-[20px] py-5 pl-5 pr-[5px] width-[343px]'>
+				<SwiperSlide>
+					<div className='border-[1px] border-primary-300 rounded-[20px] py-5 pl-5 pr-[5px] w-[343px]'>
 						<div className='flex items center'>
 							<div className='flex flex-col space-y-6'>
 								<img
@@ -58,8 +58,8 @@ const Slider = () => {
 						</div>
 					</div>
 				</SwiperSlide>
-				<SwiperSlide className='h-[281px]'>
-					<div className='border-[1px] border-primary-300 rounded-[20px] py-5 pl-5 pr-[5px] width-[343px]'>
+				<SwiperSlide>
+					<div className='border-[1px] border-primary-300 rounded-[20px] py-5 pl-5 pr-[5px] w-[343px]'>
 						<div className='flex  items center '>
 							<div className='flex flex-col space-y-6'>
 								<img
@@ -81,8 +81,8 @@ const Slider = () => {
 						</div>
 					</div>
 				</SwiperSlide>
-				<SwiperSlide className='h-[281px]'>
-					<div className='border-[1px] border-primary-300 rounded-[20px] py-5 pl-5 pr-[5px] width-[343px]'>
+				<SwiperSlide>
+					<div className='border-[1px] border-primary-300 rounded-[20px] py-5 pl-5 pr-[5px] w-[343px]'>
 						<div className='flex  items center '>
 							<div className='flex flex-col space-y-6'>
 								<img

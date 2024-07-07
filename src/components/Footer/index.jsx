@@ -2,8 +2,13 @@ import React from "react";
 
 const Footer = () => {
 	return (
-		<footer>
-			<div className='container flex gap-[121.52px] mb-[100px] '>
+		<footer className='container px-4'>
+			<div className=''></div>
+			<div className=''></div>
+			<div className=''></div>
+			<div className=''></div>
+
+			<div className='container flex gap-[121.52px] mb-[100px] hidden'>
 				<div className='h-[36px] w-[164.48px]'>
 					<img src='/assets/Logo.png' alt='' className='w-full h-full' />
 				</div>

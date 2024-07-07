@@ -3,7 +3,7 @@ import Slider from "./Slider/Slider";
 const Future = () => {
 	return (
 		<div className='container px-4 pt-10 flex flex-col justify-center'>
-			<div className='space-y-3 flex flex-col justify-center'>
+			<div className='space-y-3 flex flex-col justify-center mx-auto'>
 				<p className='text-[20px] font-semibold w-[304px]'>
 					Your Future in Real Estate Becomes{" "}
 					<span className=' text-accent-300'>Profitable</span>
