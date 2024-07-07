@@ -22,7 +22,6 @@ const HomePage = () => {
 					autoplay={{ delay: 5000 }}
 					spaceBetween={0}
 					slidesPerView={1}
-					onSlideChange={() => console.log("slide change")}
 					modules={[Pagination, Autoplay]}
 					onSwiper={(swiper) => console.log(swiper)}>
 					<SwiperSlide>
