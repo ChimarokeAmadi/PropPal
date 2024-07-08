@@ -2,7 +2,7 @@ import React from "react";
 
 const Invest = () => {
 	return (
-		<div className='container px-4 bg-primary-300 text-white pt-10 space-y-5'>
+		<div className='container px-4 bg-primary-300 text-white pt-10 space-y-5 flex flex-col'>
 			<div className='space-y-4 flex flex-col '>
 				<div className=''>
 					<p className='text-[10px] font-normal'>The PropPal’s App</p>
@@ -28,7 +28,7 @@ const Invest = () => {
 					/>
 				</div>
 			</div>
-			<div className=''>
+			<div className='mx-auto'>
 				<img src='public/assets/Mockup1.png' alt='' className='w-[343px]' />
 			</div>
 		</div>

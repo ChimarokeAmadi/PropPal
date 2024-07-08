@@ -21,7 +21,7 @@ const Community = () => {
 					<img
 						src='public/assets/Group26865.png'
 						alt=''
-						className='w-[343px] h-[329.79px]'
+						className='w-[343px] h-[329.79px] mx-auto'
 					/>
 				</div>
 			</div>

@@ -3,13 +3,13 @@ import Slider from "./Slider/Slider";
 const Future = () => {
 	return (
 		<div className='container px-4 pt-10 flex flex-col justify-center'>
-			<div className='space-y-3 flex flex-col justify-center mx-auto'>
+			<div className='space-y-3 flex flex-col justify-center '>
 				<p className='text-[20px] font-semibold w-[304px]'>
 					Your Future in Real Estate Becomes{" "}
 					<span className=' text-accent-300'>Profitable</span>
 				</p>
 
-				<p className='text-[13px] w-[320px]'>
+				<p className='text-[13px] '>
 					Here Effortless Ownership Meets Financial Freedom. Join Us and Thrive
 					Together in the World of Smart Real Estate Investments
 				</p>
@@ -22,7 +22,7 @@ const Future = () => {
 					/>
 				</div>
 
-				<p className='text-[13px] w-[320px]'>
+				<p className='text-[13px] '>
 					Thousands of investors enjoy these benefits with PropPal daily. A
 					Community Where Your Investment Grows
 				</p>

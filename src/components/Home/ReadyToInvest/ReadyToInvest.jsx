@@ -39,11 +39,11 @@ const ReadyToInvest = () => {
 					Talk to an advisor
 				</button>
 			</div>
-			<div>
+			<div className='mx-auto'>
 				<img
 					src='public/assets/Image copy.png'
 					alt=''
-					className='w-[343px] h-[242.73px]'
+					className='w-[343px] h-[242.73px] mx-auto'
 				/>
 			</div>
 		</div>
