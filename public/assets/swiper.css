@@ -49,4 +49,15 @@
 	#hero span.swiper-pagination-bullet-active {
 		@apply bg-white;
 	}
+
+	#third span.swiper-pagination-bullet {
+		@apply border border-white  opacity-100 size-[14px] bg-transparent;
+	}
+
+	#third span.swiper-pagination-bullet-active {
+		@apply bg-white;
+	}
+	#third .swiper-pagination {
+		@apply mb-[86px];
+	}
 }

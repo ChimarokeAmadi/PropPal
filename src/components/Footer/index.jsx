@@ -3,8 +3,8 @@ import React from "react";
 const Footer = () => {
 	return (
 		<>
-			<footer className='container px-4 pt-10'>
-				<div>
+			<footer className='container px-4 pt-10 lg:px-[100px] lg:py-[100px]'>
+				<div className='inline-block lg:hidden'>
 					<div className='pb-10'>
 						<img
 							src='public/assets/Logo 2.png'
@@ -61,11 +61,11 @@ const Footer = () => {
 					</div>
 				</div>
 
-				<div className='container gap-[121.52px] mb-[100px] hidden'>
+				<div className='container gap-[121.52px] hidden lg:flex'>
 					<div className='h-[36px] w-[164.48px]'>
 						<img src='/assets/Logo.png' alt='' className='w-full h-full' />
 					</div>
-					<div className='grid lg:grid-cols-[1.5fr,1fr,1fr,1fr] justify-between w-full'>
+					<div className='flex  justify-between w-full'>
 						<ul className='flex flex-col gap-5 max-w-[280px]'>
 							<li>Hello@PropPal.com</li>
 							<li>14B, HiTech Estate, Lagos Business School, Eti-Osa, Lekki</li>
@@ -112,7 +112,7 @@ const Footer = () => {
 					</div>
 				</div>
 			</footer>
-			<div className='bg-primary-300 text-white w-screen text-center text-[13px] py-5'>
+			<div className='bg-primary-300 text-white w-screen text-center text-[13px] py-5 lg:text-[16px]'>
 				PropPal. All Rights Reserved 2023.
 			</div>
 		</>

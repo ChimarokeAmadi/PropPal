@@ -4,7 +4,7 @@ import { Pagination, Autoplay } from "swiper/modules";
 
 const Slider = () => {
 	return (
-		<div id='second' className='h-[281px] container w-[343px]'>
+		<div id='second' className='h-[281px] container w-[343px] lg:hidden'>
 			<Swiper
 				className='h-[281px] '
 				pagination={{ clickable: true }}

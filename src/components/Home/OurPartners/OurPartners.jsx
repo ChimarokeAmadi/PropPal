@@ -2,7 +2,7 @@ import React from "react";
 
 const OurPartners = () => {
 	return (
-		<div className='container flex items-center justify-center'>
+		<div className='container flex items-center justify-center lg:py-[100px] lg:px-[100px]'>
 			<div className='flex flex-col justify-center items-center py-10 px-[17px] space-y-3'>
 				<p className='text-[20px] font-semibold text-center lg:text-[32px]'>
 					Our Partners
