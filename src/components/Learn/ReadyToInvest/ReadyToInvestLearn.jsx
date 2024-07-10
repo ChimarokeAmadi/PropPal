@@ -3,7 +3,7 @@ import Benefits from "@/components/benefits/benefits";
 
 const ReadyToInvest = () => {
 	return (
-		<div className='container  '>
+		<div className='container  pt-5 lg:pt-0'>
 			<div className='bg-[url(public/assets/Learn/VectorBg.png)] pt-[29px] pb-[45.9px] px-5 space-y-5 lg:space-y-0 lg:flex lg:gap-20 lg:h-fit lg:py-[100px] lg:px-[100px]'>
 				<div className='space-y-8 py-2 '>
 					<p className='text-[20px] font-semibold lg:font-medium lg:text-[36px]'>

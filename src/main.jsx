@@ -8,13 +8,15 @@ import ArticlePage from "./pages/Article.jsx";
 import PartnershipsPage from "./pages/Partnerships.jsx";
 import AboutUsPage from "./pages/AboutUs.jsx";
 import HomePage from "./pages/home.jsx";
+import ErrorPage from "./pages/ErrorPage.jsx";
 const router = createBrowserRouter([
 	{
 		path: "/",
 		element: <App />,
+		errorElement: <ErrorPage />,
 		children: [
 			{
-				path: "",
+				path: "/",
 				element: <HomePage />,
 			},
 
@@ -42,6 +44,6 @@ const router = createBrowserRouter([
 
 ReactDOM.createRoot(document.getElementById("root")).render(
 	<React.StrictMode>
-		<RouterProvider router={router}></RouterProvider>
+		<RouterProvider router={router} />
 	</React.StrictMode>
 );

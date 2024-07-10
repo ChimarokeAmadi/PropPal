@@ -25,7 +25,7 @@ const Navbar = () => {
 
 				<ul className='text-[13px] text-[#1E1E1E] pt-[109px] pb-[23px]'>
 					<li className='h-[50px]'>
-						<a href='' className='text-[#1E1E1E]'>
+						<a href='/' className='text-[#1E1E1E]'>
 							Home
 						</a>
 					</li>
@@ -61,7 +61,7 @@ const Navbar = () => {
 
 				<ul className='gap-[32px] items-center hidden lg:flex'>
 					<li>
-						<a href='' className='text-[#1E1E1E]'>
+						<a href='/' className='text-[#1E1E1E]'>
 							Home
 						</a>
 					</li>
