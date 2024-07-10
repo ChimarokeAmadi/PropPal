@@ -4,7 +4,7 @@ const Community = () => {
 	return (
 		<div className='container px-4 lg:px-[103px]'>
 			<div className='space-y-5 lg:flex lg:space-y-0 lg:gap-[79px] lg:mx-auto'>
-				<div className='space-y-3 lg:w-[557px] lg:space-y-6'>
+				<div className='space-y-3 lg:w-[557px] lg:flex flex-col gap-6 justify-center'>
 					<p className='font-semibold text-[20px] lg:font-medium lg:text-[36px]'>
 						Join The Propal Community
 					</p>
@@ -15,7 +15,7 @@ const Community = () => {
 						come together to share knowledge, exchange ideas, and embark on a
 						collective journey toward financial empowerment.
 					</p>
-					<button className='bg-primary-300 text-white rounded-[10px] px-5 py-[10px] text-[13px] font-semibold lg:text-[18px]'>
+					<button className='bg-primary-300 text-white rounded-[10px] px-5 py-[10px] text-[13px] font-semibold lg:text-[18px] w-fit'>
 						Join Our Community
 					</button>
 				</div>

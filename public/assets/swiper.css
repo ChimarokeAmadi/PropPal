@@ -26,19 +26,11 @@
 }
 
 #third span.swiper-pagination-bullet {
-	@apply border border-white  opacity-100 size-[10px] bg-transparent;
+	@apply border border-black opacity-100 size-[10px] bg-transparent;
 }
 
 #third span.swiper-pagination-bullet-active {
-	@apply bg-white;
-}
-
-#orange span.swiper-pagination-bullet {
-	@apply border border-accent-300  opacity-100 size-[10px] bg-transparent;
-}
-
-#third #orange span.swiper-pagination-bullet-active {
-	@apply bg-accent-300;
+	@apply bg-black;
 }
 
 @media (min-width: 1024px) {
