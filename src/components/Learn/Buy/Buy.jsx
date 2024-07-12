@@ -8,7 +8,7 @@ const Buy = () => {
 			<div className='gap-5 mt-10 flex flex-col lg:mt-[100px] lg:mb-[100px]'>
 				<div className='flex gap-[10px] self-start'>
 					<img
-						src='public/assets/Learn/HouseIcon2.png'
+						src='/assets/Learn/HouseIcon2.png'
 						alt=''
 						className='w-6 h-7 lg:w-[68.57px] lg:h-[80px]'
 					/>

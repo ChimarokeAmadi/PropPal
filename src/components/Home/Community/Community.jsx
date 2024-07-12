@@ -20,11 +20,7 @@ const Community = () => {
 					</button>
 				</div>
 				<div className='w-[343px] h-[329.79px] lg:h-[606px] lg:w-[597px]'>
-					<img
-						src='public/assets/Group26865.png'
-						alt=''
-						className='w-full h-full'
-					/>
+					<img src='/assets/Group26865.png' alt='' className='w-full h-full' />
 				</div>
 			</div>
 		</div>

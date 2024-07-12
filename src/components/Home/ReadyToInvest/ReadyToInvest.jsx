@@ -13,7 +13,7 @@ const ReadyToInvest = () => {
 						<li key={index} className='relative before:absolute pl-[44px]'>
 							{data.benefit}
 							<img
-								src='public/assets/Icon.png'
+								src='/assets/Icon.png'
 								alt=''
 								className='absolute top-0 left-0 h-5 w-5'
 							/>
@@ -25,11 +25,7 @@ const ReadyToInvest = () => {
 				</button>
 			</div>
 			<div className='w-[343px] h-[242.73px] lg:min-w-[580px] lg:h-[411px]'>
-				<img
-					src='public/assets/Image copy.png'
-					alt=''
-					className='w-full h-full'
-				/>
+				<img src='/assets/Image copy.png' alt='' className='w-full h-full' />
 			</div>
 		</div>
 	);

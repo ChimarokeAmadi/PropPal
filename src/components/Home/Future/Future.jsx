@@ -17,7 +17,7 @@ const Future = () => {
 
 					<div>
 						<img
-							src='public/assets/Frame27.png'
+							src='/assets/Frame27.png'
 							alt=''
 							className='w-[136px] h-[40px] lg:w-[176px] lg:h-[50px]'
 						/>
@@ -54,7 +54,7 @@ const Future = () => {
 				<div className='hidden lg:grid grid-cols-2 w-[736px] gap-5'>
 					<div className='px-5 py-5 border-primary-300 border-2 rounded-[20px]'>
 						<img
-							src='public/assets/Untitled21.png'
+							src='/assets/Untitled21.png'
 							alt=''
 							className='h-[60px] w-[60px]'
 						/>
@@ -71,7 +71,7 @@ const Future = () => {
 					</div>
 					<div className='px-5 py-5 border-primary-300 border-2 rounded-[20px]'>
 						<img
-							src='public/assets/Untitled21.png'
+							src='/assets/Untitled21.png'
 							alt=''
 							className='h-[60px] w-[60px]'
 						/>
@@ -87,7 +87,7 @@ const Future = () => {
 					</div>
 					<div className='px-5 py-5 border-primary-300 border-2 rounded-[20px]'>
 						<img
-							src='public/assets/Untitled21.png'
+							src='/assets/Untitled21.png'
 							alt=''
 							className='h-[60px] w-[60px]'
 						/>
@@ -104,7 +104,7 @@ const Future = () => {
 					</div>
 					<div className='px-5 py-5 border-primary-300 border-2 rounded-[20px]'>
 						<img
-							src='public/assets/Untitled21.png'
+							src='/assets/Untitled21.png'
 							alt=''
 							className='h-[60px] w-[60px]'
 						/>

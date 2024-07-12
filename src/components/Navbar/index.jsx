@@ -24,7 +24,7 @@ const Navbar = () => {
 					isActive ? "translate-x-0" : "translate-x-[-100%]"
 				}`}>
 				<img
-					src='public/assets/Vector.png'
+					src='/assets/Vector.png'
 					alt=''
 					className='absolute top-[17px] left-[22px] h-5 w-5'
 					onClick={closeMenu}
@@ -77,7 +77,7 @@ const Navbar = () => {
 			</div>
 			<div className='flex items-center justify-between lg:h-[43px]'>
 				<div className='menu lg:hidden' onClick={openMenu}>
-					<img src='public/assets/menu.png' alt='' />
+					<img src='/assets/menu.png' alt='' />
 				</div>
 
 				<div className=' w-[67px] h-[15px] flex items-center lg:h-6 lg:w-[109.65px]'>

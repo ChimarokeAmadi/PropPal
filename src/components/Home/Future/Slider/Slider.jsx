@@ -17,7 +17,7 @@ const Slider = () => {
 						<div className='flex items center '>
 							<div className='flex flex-col space-y-6'>
 								<img
-									src='public/assets/Untitled21.png'
+									src='/assets/Untitled21.png'
 									alt=''
 									className='h-[60px] w-[60px]'
 								/>
@@ -40,7 +40,7 @@ const Slider = () => {
 						<div className='flex items center'>
 							<div className='flex flex-col space-y-6'>
 								<img
-									src='public/assets/Untitled21.png'
+									src='/assets/Untitled21.png'
 									alt=''
 									className='h-[60px] w-[60px]'
 								/>
@@ -63,7 +63,7 @@ const Slider = () => {
 						<div className='flex  items center '>
 							<div className='flex flex-col space-y-6'>
 								<img
-									src='public/assets/Untitled21.png'
+									src='/assets/Untitled21.png'
 									alt=''
 									className='h-[60px] w-[60px]'
 								/>
@@ -86,7 +86,7 @@ const Slider = () => {
 						<div className='flex  items center '>
 							<div className='flex flex-col space-y-6'>
 								<img
-									src='public/assets/Untitled21.png'
+									src='/assets/Untitled21.png'
 									alt=''
 									className='h-[60px] w-[60px]'
 								/>

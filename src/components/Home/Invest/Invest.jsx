@@ -21,12 +21,12 @@ const Invest = () => {
 				</div>
 				<div className='flex gap-3 w-fit'>
 					<img
-						src='public/assets/GoogleStore.png'
+						src='/assets/GoogleStore.png'
 						alt=''
 						className='h-[40px] w-[134.29px] lg:h-[50px] lg:w-[167.86px]'
 					/>
 					<img
-						src='public/assets/AppStore.png'
+						src='/assets/AppStore.png'
 						alt=''
 						className='h-[40px] w-[134.29px] lg:h-[50px] lg:w-[167.86px]'
 					/>
@@ -34,7 +34,7 @@ const Invest = () => {
 			</div>
 			<div className='lg:w-fit'>
 				<img
-					src='public/assets/Mockup1.png'
+					src='/assets/Mockup1.png'
 					alt=''
 					className='w-[343px] lg:w-[539px]'
 				/>

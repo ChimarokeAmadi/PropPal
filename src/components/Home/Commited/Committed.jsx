@@ -17,7 +17,7 @@ const Committed = () => {
 					</p>
 				</div>
 				<img
-					src='public/assets/pexels.png'
+					src='/assets/pexels.png'
 					alt=''
 					className='w-[343px] h-[308.7px]  rounded-[20px] lg:w-[500px] lg:h-[454px]'
 				/>

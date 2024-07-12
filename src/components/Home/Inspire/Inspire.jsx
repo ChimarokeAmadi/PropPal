@@ -26,7 +26,7 @@ const Inspire = () => {
 								<div className='space-y-4 lg:flex lg:space-x-[92px] lg:items-center lg:w-full'>
 									<div className='flex items-center gap-3 lg:flex-col lg:min-w-[166px] '>
 										<img
-											src='public/assets/Ellipse11.png'
+											src='/assets/Ellipse11.png'
 											alt=''
 											className='h-10 w-10 lg:h-[120px] lg:w-[120px]'
 										/>
@@ -90,7 +90,7 @@ const Inspire = () => {
 									<div className='space-y-4 '>
 										<div className='flex items-center gap-3'>
 											<img
-												src='public/assets/Ellipse12.png'
+												src='/assets/Ellipse12.png'
 												alt=''
 												className='h-10 w-10'
 											/>
@@ -151,7 +151,7 @@ const Inspire = () => {
 								<div className='space-y-4 '>
 									<div className='flex items-center gap-3'>
 										<img
-											src='public/assets/Ellipse11.png'
+											src='/assets/Ellipse11.png'
 											alt=''
 											className='h-10 w-10'
 										/>
