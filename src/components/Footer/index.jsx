@@ -7,7 +7,7 @@ const Footer = () => {
 				<div className='inline-block lg:hidden'>
 					<div className='pb-10'>
 						<img
-							src='public/assets/Logo 2.png'
+							src='/assets/Logo 2.png'
 							alt=''
 							className='h-[15px] w-[68.53px]'
 						/>
