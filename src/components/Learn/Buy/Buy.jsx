@@ -1,9 +1,10 @@
 import React from "react";
 import Features from "../features/features";
+import { Link } from "react-router-dom";
 
 const Buy = () => {
 	return (
-		<div className='container  px-[19.5px] lg:items-center '>
+		<div className='container  px-[19.5px] lg:items-center lg:px-[100px]'>
 			<div className='gap-5 mt-10 flex flex-col lg:mt-[100px] lg:mb-[100px]'>
 				<div className='flex gap-[10px] self-start'>
 					<img
@@ -23,7 +24,7 @@ const Buy = () => {
 
 				<div className='grid gap-10 grid-cols-1 lg:grid-cols-[400px,400px,400px] lg:gap-5'>
 					{Features.map((data, index) => (
-						<a href='' className='lg:p-5'>
+						<Link to={`/learn/${data.title}`} className='lg:p-5'>
 							<div
 								className='rounded-[10px] shadow-lg lg:shadow-none'
 								key={index}>
@@ -42,7 +43,7 @@ const Buy = () => {
 									</p>
 								</div>
 							</div>
-						</a>
+						</Link>
 					))}
 				</div>
 			</div>

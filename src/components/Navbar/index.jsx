@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { NavLink } from "react-router-dom";
 
 const Navbar = () => {
 	const [isActive, setIsActive] = useState(false);
@@ -9,6 +10,12 @@ const Navbar = () => {
 	const closeMenu = () => {
 		setIsActive(false);
 	};
+
+	// const NavLinkStyles = ({ isActive }) => {
+	// 	return {
+	// 		color: isActive ? "blue" : "#1E1E1E",
+	// 	};
+	// };
 
 	return (
 		<nav className='container mx-auto py-[15px] px-5 lg:px-[100px] lg:pt-10 lg:pb-9'>
@@ -25,25 +32,43 @@ const Navbar = () => {
 
 				<ul className='text-[13px] text-[#1E1E1E] pt-[109px] pb-[23px]'>
 					<li className='h-[50px]'>
-						<a href='/' className='text-[#1E1E1E]'>
+						<NavLink
+							onClick={closeMenu}
+							className={({ isActive }) => {
+								return isActive ? "text-primary-300" : "#1E1E1E";
+							}}
+							to=''>
 							Home
-						</a>
+						</NavLink>
 					</li>
 					<li className='h-[50px]'>
-						<a href='/learn' className='text-[#1E1E1E]'>
+						<NavLink
+							onClick={closeMenu}
+							className={({ isActive }) => {
+								return isActive ? "text-primary-300" : "#1E1E1E";
+							}}
+							to='/learn'>
 							Learn
-						</a>
+						</NavLink>
 					</li>
 					<li className='h-[50px]'>
-						<a href='/partnerships' className='text-[#1E1E1E]'>
+						<NavLink
+							onClick={closeMenu}
+							className={({ isActive }) => {
+								return isActive ? "text-primary-300" : "#1E1E1E";
+							}}
+							to='/partnerships'>
 							Partnership
-						</a>
+						</NavLink>
 					</li>
-					<li className='h-[50px]'>
-						<a href='/about-us' className='text-[#1E1E1E]'>
-							About Us
-						</a>
-					</li>
+					<NavLink
+						onClick={closeMenu}
+						className={({ isActive }) => {
+							return isActive ? "text-primary-300" : "#1E1E1E";
+						}}
+						to='/about-us'>
+						About Us
+					</NavLink>
 				</ul>
 
 				<button className='bg-primary-300 px-[28.5px] py-[10px] rounded-[10px] text-white text-[13px]'>
@@ -61,24 +86,40 @@ const Navbar = () => {
 
 				<ul className='gap-[32px] items-center hidden lg:flex'>
 					<li>
-						<a href='/' className='text-[#1E1E1E]'>
+						<NavLink
+							className={({ isActive }) => {
+								return isActive ? "text-primary-300" : "#1E1E1E";
+							}}
+							to=''>
 							Home
-						</a>
+						</NavLink>
 					</li>
 					<li>
-						<a href='/learn' className='text-[#1E1E1E]'>
+						<NavLink
+							className={({ isActive }) => {
+								return isActive ? "text-primary-300" : "#1E1E1E";
+							}}
+							to='/learn'>
 							Learn
-						</a>
+						</NavLink>
 					</li>
 					<li>
-						<a href='/partnerships' className='text-[#1E1E1E]'>
+						<NavLink
+							className={({ isActive }) => {
+								return isActive ? "text-primary-300" : "#1E1E1E";
+							}}
+							to='/partnerships'>
 							Partnership
-						</a>
+						</NavLink>
 					</li>
 					<li>
-						<a href='/about-us' className='text-[#1E1E1E]'>
+						<NavLink
+							className={({ isActive }) => {
+								return isActive ? "text-primary-300" : "#1E1E1E";
+							}}
+							to='/about-us'>
 							About Us
-						</a>
+						</NavLink>
 					</li>
 				</ul>
 

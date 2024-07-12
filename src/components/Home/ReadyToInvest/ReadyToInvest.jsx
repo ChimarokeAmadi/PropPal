@@ -3,7 +3,7 @@ import Benefits from "@/components/benefits/benefits";
 
 const ReadyToInvest = () => {
 	return (
-		<div className='container px-4 space-y-5 pb-[23px] lg:flex lg:p-[100px] lg:justify-between lg:space-y-0 lg:gap-[80px]'>
+		<div className='container px-4 space-y-5 pb-[23px] lg:flex lg:p-[100px]  lg:space-y-0 lg:gap-[80px] lg:justify-center'>
 			<div className='space-y-5 lg:space-y-8'>
 				<p className='text-[20px] font-semibold lg:font-medium lg:text-[36px]'>
 					Ready to Invest Confidently
