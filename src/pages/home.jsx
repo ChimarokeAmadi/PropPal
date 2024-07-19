@@ -14,25 +14,6 @@ import Faq from "../components/Home/Faq/Faq";
 import ReadyToInvest from "../components/Home/ReadyToInvest/ReadyToInvest";
 
 const HomePage = () => {
-	const Features = [
-		{
-			title: "Real Estate Made Easy",
-			img: "/assets/Image.png",
-		},
-		{
-			title: "Wealth Creation Made Easy",
-			img: "/assets/Image2.png",
-		},
-		{
-			title: "Your Partner in Wealth Creation",
-			img: "/assets/Image3.png",
-		},
-		{
-			title: "You’re Not Alone",
-			img: "/assets/Image4.png",
-		},
-	];
-
 	return (
 		<main className='mx-auto'>
 			<div id='hero' className='mx-auto'>
@@ -41,8 +22,7 @@ const HomePage = () => {
 					autoplay={{ delay: 5000 }}
 					spaceBetween={0}
 					slidesPerView={1}
-					modules={[Pagination, Autoplay]}
-					onSwiper={(swiper) => console.log(swiper)}>
+					modules={[Pagination, Autoplay]}>
 					<SwiperSlide>
 						<div
 							className={`bg-[url(/assets/Image.png)] bg-cover bg-center w-full h-full relative lg:bg-contain`}>
