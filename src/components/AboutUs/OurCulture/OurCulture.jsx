@@ -3,8 +3,8 @@ import Cultures from "../Cultures/Cultures";
 
 const OurCulture = () => {
 	return (
-		<div className='container px-[18.5px] py-10'>
-			<div className='space-y-5'>
+		<div className='container px-[18.5px] py-10 lg:bg-[#F2EFEF]'>
+			<div className='space-y-5 lg:hidden'>
 				<p className='text-[20px] font-semibold text-center'>Our Culture</p>
 				{Cultures.map((data, index) => (
 					<div
@@ -27,6 +27,81 @@ const OurCulture = () => {
 						</div>
 					</div>
 				))}
+			</div>
+			<div className='space-y-[50px]'>
+				<p className='text-[36px] font-medium text-center'>Our Culture</p>
+				<div className='hidden lg:grid grid-cols-3 grid-rows-15 gap-5 h-[1258px] w-[1240px] mx-auto'>
+					<div className='px-20 py-[100px] bg-white rounded-[20px] row-start-2 col-start-1 col-end-2 row-end-7'>
+						<div className='space-y-10 '>
+							<img
+								src='/assets/AboutUS/Lamp2.png'
+								alt=''
+								className='h-[132px] w-[185px] mx-auto'
+							/>
+							<p className='text-[24px] font-medium text-center'>Innovation</p>
+						</div>
+					</div>
+					<div className='px-20 py-[100px] bg-white rounded-[20px] row-start-1 row-end-6 col-start-2 col-end-3'>
+						<div className='space-y-10'>
+							<img
+								src='/assets/AboutUS/brainstorming3.png'
+								alt=''
+								className='h-[132px] w-[185px] mx-auto'
+							/>
+							<p className='text-[24px] font-medium text-center'>Innovation</p>
+						</div>
+					</div>
+					<div className='px-20 py-[100px] bg-white rounded-[20px] row-start-2 row-end-7 col-start-3 col-end-4'>
+						<div className='space-y-10'>
+							<img
+								src='/assets/AboutUS/search.png'
+								alt=''
+								className='h-[132px] w-[185px] mx-auto'
+							/>
+							<p className='text-[24px] font-medium text-center'>Innovation</p>
+						</div>
+					</div>
+					<div className='px-20 py-[100px] bg-white rounded-[20px] row-start-7 row-end-12 col-start-1 col-end-2'>
+						<div className='space-y-10'>
+							<img
+								src='/assets/AboutUS/people1.png'
+								alt=''
+								className='h-[132px] w-[185px] mx-auto'
+							/>
+							<p className='text-[24px] font-medium text-center'>Innovation</p>
+						</div>
+					</div>
+					<div className='px-20 py-[100px] bg-white rounded-[20px] row-start-6 row-end-11 col-start-2 col-end-3'>
+						<div className='space-y-10'>
+							<img
+								src='/assets/AboutUS/Lamp2.png'
+								alt=''
+								className='h-[132px] w-[185px] mx-auto'
+							/>
+							<p className='text-[24px] font-medium text-center'>Innovation</p>
+						</div>
+					</div>
+					<div className='px-20 py-[100px] bg-white rounded-[20px] row-start-7 row-end-12 col-start-3 col-end-4 '>
+						<div className='space-y-10'>
+							<img
+								src='/assets/AboutUS/Lamp2.png'
+								alt=''
+								className='h-[132px] w-[185px] mx-auto'
+							/>
+							<p className='text-[24px] font-medium text-center'>Innovation</p>
+						</div>
+					</div>
+					<div className='px-20 py-[100px] bg-white rounded-[20px] col-start-2 col-end-3 row-start-11 row-span-full'>
+						<div className='space-y-10'>
+							<img
+								src='/assets/AboutUS/Lamp2.png'
+								alt=''
+								className='h-[132px] w-[185px] mx-auto'
+							/>
+							<p className='text-[24px] font-medium text-center'>Innovation</p>
+						</div>
+					</div>
+				</div>
 			</div>
 		</div>
 	);

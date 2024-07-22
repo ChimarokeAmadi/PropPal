@@ -2,8 +2,8 @@ import React from "react";
 
 const OurPartners = () => {
 	return (
-		<div className='container flex items-center justify-center lg:py-[100px] lg:px-[100px]'>
-			<div className='flex flex-col justify-center items-center py-10 px-[17px] space-y-3'>
+		<div className='container flex items-center justify-center lg:pt-[30.5px] lg:pb-[29.5px] lg:px-[100px] '>
+			<div className='flex flex-col justify-center items-center py-10 px-[17px] space-y-3 lg:py-0 '>
 				<p className='text-[20px] font-semibold text-center lg:text-[32px]'>
 					Our Partners
 				</p>
