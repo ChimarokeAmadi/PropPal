@@ -3,7 +3,7 @@ import Cultures from "../Cultures/Cultures";
 
 const OurCulture = () => {
 	return (
-		<div className='container px-[18.5px] py-10 lg:bg-[#F2EFEF]'>
+		<div className='container px-[18.5px] py-10 lg:bg-[#F2EFEF] lg:pb-[228px] lg:pt[100px]'>
 			<div className='space-y-5 lg:hidden'>
 				<p className='text-[20px] font-semibold text-center'>Our Culture</p>
 				{Cultures.map((data, index) => (
