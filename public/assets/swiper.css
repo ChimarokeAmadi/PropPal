@@ -1,6 +1,7 @@
 #hero .swiper-pagination {
 	@apply pb-[50px];
 }
+
 #hero span.swiper-pagination-bullet {
 	@apply border border-white  opacity-100 size-[7px] bg-transparent;
 }

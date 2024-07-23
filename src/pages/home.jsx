@@ -16,7 +16,7 @@ import ReadyToInvest from "../components/Home/ReadyToInvest/ReadyToInvest";
 const HomePage = () => {
 	return (
 		<main className='mx-auto'>
-			<div id='hero' className='mx-auto'>
+			<div id='hero' className={`mx-auto`}>
 				<Swiper
 					pagination={{ clickable: true }}
 					autoplay={{ delay: 5000 }}
@@ -31,6 +31,7 @@ const HomePage = () => {
 									<h1 className='text-[31px] font-extrabold text-white text-center lg:text-[76px]'>
 										Real Estate Made Easy
 									</h1>
+
 									<h6 className='text-[13px] text-white text-center lg:text-[25px]'>
 										We help you navigate the complexities of owning properties,
 										one step at a time

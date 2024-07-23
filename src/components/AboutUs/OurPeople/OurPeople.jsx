@@ -2,12 +2,18 @@ import React from "react";
 
 const OurPeople = () => {
 	return (
-		<div className='container pl-5 pr-[19px] pb-10'>
-			<div className='space-y-[3px]'>
-				<p className='text-[20px] font-semibold text-center'>Our People</p>
-				<div className='space-y-10'>
-					<img src='/assets/AboutUS/Team-Images.png' alt='' />
-					<p className='text-[13px]'>
+		<div className='container pl-5 pr-[19px] pb-10 lg:bg-[#F2EFEF] lg:px-[103px] lg:pb-[140px]'>
+			<div className='space-y-[3px] lg:space-y-[50px]'>
+				<p className='text-[20px] font-semibold text-center lg:text-[36px]'>
+					Our People
+				</p>
+				<div className='space-y-10 lg:space-y-0 lg:flex lg:gap-[109px]  lg:w-full'>
+					<img
+						src='/assets/AboutUS/Team-Images.png'
+						alt=''
+						className='lg:w-[587px] lg:h-[496px]'
+					/>
+					<p className='text-[13px] lg:text-[20px] lg:w-full'>
 						At Proppal, our success is driven by the diverse and talented
 						individuals who make up our team. We believe in the power of
 						collaboration, innovation, and a shared passion for transforming
