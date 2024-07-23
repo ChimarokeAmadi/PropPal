@@ -7,7 +7,7 @@ const PartnershipsPage = () => {
 		<>
 			<div className='bg-[url(/assets/Partnership/handshake.png)]  bg-center'>
 				<div className='bg-[#1E1F8C] bg-opacity-[28%]'>
-					<div className='container text-white pt-[94.38px] pb-[141.05px] px-5 lg:flex lg:flex-col items-center lg:py-[299px] lg;px-[342px]'>
+					<div className='container text-white pt-[94.38px] pb-[141.05px] px-5 lg:flex lg:flex-col items-center lg:py-[285px] lg:px-[342px]'>
 						<div className=' w-[336px] h-[176.57px] lg:w-full lg:h-full lg:flex flex-col items-center lg:gap-[10px]'>
 							<p className='font-semibold text-[31px] lg:w-[756px] lg:text-center lg:text-[40px]'>
 								We are empowering Growth Through Strategic Alliances
