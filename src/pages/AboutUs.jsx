@@ -12,7 +12,7 @@ const AboutUsPage = () => {
 				<div className='bg-[#1E1F8C99] bg-opacity-60'>
 					<div className='container px-5 pt-[84px] pb-[68px] lg:pt-[267px] lg:pb-[268px]'>
 						<div className='text-white lg:text-center lg:w-[1003px] lg:mx-auto lg:space-y-5'>
-							<p className='text-[31px] font-bold lg:text-[36px] lg:text-center px-[123px]'>
+							<p className='text-[31px] font-bold lg:text-[36px] lg:text-center lg:px-[123px] '>
 								Elevating Real Estate Investment through Innovation and
 								Expertise
 							</p>
